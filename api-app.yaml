@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api-app
-        image: kubo-1/epoch-sample-api:main.20210830-153251
+        image: rkuboniwa/epoch-sample-api:main.20210830-153251
         ports:
         - name: http
           containerPort: 8000
